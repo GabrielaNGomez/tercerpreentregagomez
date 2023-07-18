@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EDCA5F;
+  }
+  
+  /* Estilos del header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EFECDD;
+    padding: 10px;
+    height: 100px;
+    flex-shrink: 0;
+  }
+  
+
+  .logo img {
+    width: 221px;
+    height: auto;
+    flex-shrink: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0; 
+    font-size: 23px;
+    font-family: Patrick Hand;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+  
+  nav li {
+    margin-right: 40px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #7677B5;
+    /* transition: color 0.3s ease; Transición de color */
+  }
+  
+  .login i {
+    font-size: 24px;
+    color: #7677B5;
+    /* cursor: pointer; */
+    margin-right: 30px;
+  }
+
+  
+  /* Estilos del main */
+
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+  }
+
+  .form-container {
+    flex: 1;
+    padding: 20px;
+    font-family: Patrick Hand;
+  }
+
+  h1{
+    color: #FFF;
+    font-family: Patrick Hand;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    }
+  
+  form {
+    border-radius: 0px 15px 15px 15px;
+    margin-right: 40px;
+    color: #F6F6F6;
+    font-family: Patrick Hand;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input,
+  select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #C4C3C3;
+    border-radius: 0px 10px 10px 10px;
+    color: #C4C3C3;
+    font-family: Patrick Hand;
+    font-size: 20px;
+  }
+  
+  button {
+    border-radius: 10px;
+    background: #EE7C39;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 10px 0px rgba(0, 0, 0, 0.08);
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    width: 140px;
+    height: 40px;
+    flex-shrink: 0;
+  }
+  
+  /* button:hover {
+    background-color: #e60000;
+  } */

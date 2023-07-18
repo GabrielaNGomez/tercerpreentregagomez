@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Empresa familiar de alquiler de inflables para la diversión de los más pequeños">
+    <title>Home</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/estilo.css" />
+
+    <!-- Favicon -->
+    <link  rel="icon"   href="./img/favicon.png" type="image/png" />
+
+    <!-- Fuente -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+    </style>
+
+    <!-- Iconos Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#"> <img src="./img/logo.svg" alt="Logo"></a>
+        </div>
+        
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">Galería</a></li>
+            <div class="login">
+                <i class="bi bi-person-circle"></i>
+            </div>
+          </ul>
+        </nav>
+
+        </div>
+      </header>
+
+    <main>
+        <div class="image-container">
+            <img src="./img/imagen_main.png" alt="Imagen_main">
+          </div>
+
+          <div class="form-container">
+            <h1>¡ELIGE UNA FECHA PARA TU EVENTO!</h1>
+            <form id="formulario">
+              <label for="fecha">Fecha del evento *</label>
+              <input type="date" id="fecha" name="fecha">
+      
+              <label for="hora-inicio">Hora de inicio *</label>
+              <input type="time" id="hora-inicio" name="hora-inicio">
+      
+              <label for="hora-fin">Hora de finalización *</label>
+              <input type="time" id="hora-fin" name="hora-fin">
+      
+              <label for="direccion">Dirección *</label>
+              <input type="text" id="direccion" name="direccion" placeholder="Escribe un dirección">
+      
+              <label for="modelo">Modelo del inflable *</label>
+              
+                <select id="productos">
+                    <option value="">Seleccionar modelo</option>
+                    <option value="producto1">Modelo Infable Punta Palmera</option>
+                    <option value="producto2">Modelo Infable Punta Lápiz</option>
+                    <option value="producto3">Modelo Infable Rampa</option>
+                  </select>
+      
+              <label for="celular">Celular *</label>
+              <input type="tel" id="celular" name="celular" pattern="[0-9]{10}" placeholder="Escribe tu número de celular">
+              
+              <button id="agregarAlCarrito">¡Reservar!</button>
+            </form>
+          </div>
+    </main>
+    
+    
+    <script src="./js.js"></script>   
+    <ul id="carrito"></ul>
+</body>
+</html>
